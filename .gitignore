@@ -1,2 +1,10 @@
 /.metadata/
+/Servers/
+*.class
+**/.settings/
+**/bin/
 /.metadata/
+/.metadata/
+/.recommenders/
+/RemoteSystemsTempFiles/
+
