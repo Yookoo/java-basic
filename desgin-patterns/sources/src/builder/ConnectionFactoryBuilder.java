@@ -6,15 +6,14 @@ import java.util.Properties;
 
 import javax.sql.DataSource;
 
-import org.apache.commons.dbcp.BasicDataSourceFactory;
-
+import org.apache.commons.dbcp2.BasicDataSourceFactory;
 
 import singleton.Config;
 
 public class ConnectionFactoryBuilder {
 	
 	/**
-	 * 利用建造者模式,模仿hibernate中的Sessionfactory建造一个ConnectionFactory用来创建jdbc连接;
+	 * 锟斤拷锟矫斤拷锟斤拷锟斤拷模式,模锟斤拷hibernate锟叫碉拷Sessionfactory锟斤拷锟斤拷一锟斤拷ConnectionFactory锟斤拷锟斤拷锟斤拷锟斤拷jdbc锟斤拷锟斤拷;
 	 * @return
 	 * @throws Exception
 	 */
